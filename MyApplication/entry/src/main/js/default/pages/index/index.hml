@@ -1,0 +1,33 @@
+<div class="container">
+
+    <tabs class = "tabs" index="0" vertical="false" onchange="change">
+
+        <tab-content class="tabcontent" scrollable="true">
+            <div class="item-content" >
+                <text class="item-title">First screen</text>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">Second screen</text>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">Third screen</text>
+            </div>
+        </tab-content>
+
+        <tab-bar class="tab-bar" mode="fixed">
+            <div class="tab">
+                <image class="tab_img" src="{{tab[0]}}"/>
+                <text class="tab-text">Home</text>
+            </div>
+            <div class="tab">
+                <image class="tab_img" src="{{tab[1]}}"/>
+                <text class="tab-text">Home</text>
+            </div>
+            <div class="tab">
+                <image class="tab_img" src="{{tab[2]}}"/>
+                <text class="tab-text">Home</text>
+            </div>
+        </tab-bar>
+    </tabs>
+
+</div>

@@ -1,0 +1,44 @@
+/* phone */
+@media screen and (device-type: phone) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .tabs {
+        width: 100%;
+    }
+    .tabcontent {
+        width: 100%;
+/*        height: 90%;*/
+        justify-content: center;
+    }
+    .item-content {
+        height: 100%;
+        justify-content: center;
+    }
+    .item-title {
+        font-size: 60px;
+    }
+    .tab-bar {
+        margin: 10px;
+        height: 100px;
+        border-top-width: 1px;
+        position:fixed;
+        bottom: 0px;
+    }
+    .tab{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tab_img{
+        width: 60px;
+        height: 60px;
+    }
+    .tab-text {
+        width: 300px;
+        text-align: center;
+    }
+}
